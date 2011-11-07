@@ -1,0 +1,38 @@
+#summary Current and planned features, and known issues.
+#labels Featured,Phase-Design,Phase-Implementation
+
+= Current Features =
+
+  *Add, modify, and remove bugs.
+
+  *View bugs.
+
+  *Saves project as .hes file.
+
+  *Ten-depth undo/redo system.
+
+= Planned Features =
+
+  *Server version (currently, runs on local system only.
+
+  *Multiple and extended comments, with each comment's developer name and the date added.
+
+  *Extended description for error messages and code snippets.
+
+  *Mac and Linux binaries.
+
+= Known Issues =
+
+  *Due to the nature of the current PyGTK library (the library used to build Slannan’s GUI), help prompts are not displayed in the status bar for toolbar items (only menu items).
+
+  *Multiple instances of the program running at the same time can cause unanticipated issues. Furthermore, because of the method of opening .hes files, Slannan is unable to see external changes made to the currently open project.
+
+  *Changes made to the list will not be reflected in the detail view of the lower pane until a new item is selected.
+
+  *Until another item is clicked in the list, the last selected item will remain “selected” as far as many of the program’s modules are concerned, even though it will appear that no item is selected on the list itself after a bug is added or deleted.
+
+  *Due to the nature of the undo/redo functions, completion of action on exceptionally large projects may take longer than anticipated. For your convenience, you will notice a spinner in the status bar while the program running a function.
+
+  *Cannot open files externally (double-clicking .hes file in external file browser.
+
+  *Help documentation will open from the “Help” button on the toolbar or Help menu on any operating system built on Windows NT, Mac OS X, or Linux 2 and up. Other operating systems will display an error message on opening the documentation from the program.
