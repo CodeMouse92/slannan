@@ -13,9 +13,17 @@
 
 = Planned Features =
 
+  * UPGRADE TO PYGOBJECT 3
+
   * Server version (currently, runs on local system only.
 
   * Multiple and extended comments, with each comment's developer name and the date added.
+
+  * Extend depth of undo/redo.
+
+  * Upgrade open/save module to allow for externally opening files.
+
+  * Steamline code to speed up the program.
 
   * Extended description for error messages and code snippets.
 
